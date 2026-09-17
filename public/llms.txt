@@ -1,0 +1,55 @@
+# Benra Framing and Renovations Limited
+
+> Licensed, insured carpentry contractor serving Surrey and the entire Lower Mainland & Fraser Valley, British Columbia, Canada. Phone: Number coming soon.
+
+Benra Framing and Renovations Limited is a local carpentry contractor offering transparent written quotes, 24–48 hr estimate turnaround, and code-compliant carpentry work to the BC Building Code. Services cover residential, commercial and multi-family projects.
+
+## Services
+- [New Home Framing](https://benra-framing.netlify.app/services/new-home-framing.html): From the first floor deck to the last roof truss, we frame new homes, laneway houses and infill builds square, plumb and ready for inspection — on schedule.
+- [Renovation & Addition Framing](https://benra-framing.netlify.app/services/renovation-addition-framing.html): Tying new framing into an existing home is its own skill — matching floor heights, removing load-bearing walls safely, and keeping the rest of the house standing while we work.
+- [Deck Framing & Construction](https://benra-framing.netlify.app/services/deck-framing.html): A deck is only as good as what's underneath it.
+- [Fence Framing & Installation](https://benra-framing.netlify.app/services/fence-framing.html): A fence that stays straight starts with posts set deep and level.
+- [Basement & Suite Framing](https://benra-framing.netlify.app/services/basement-suite-framing.html): A legal secondary suite has to meet fire-separation, egress and ceiling-height rules that a casual basement reno often misses.
+- [Structural Framing Repair](https://benra-framing.netlify.app/services/structural-framing-repair.html): Sagging floors, bouncy joists, a header that's cracked or a beam that's settled — we diagnose the real cause and repair the framing properly, not just hide the symptom.
+- [Rot & Water Damage Repair](https://benra-framing.netlify.app/services/rot-water-damage-repair.html): Wet coastal winters are hard on wood.
+- [Garage, Shop & Shed Framing](https://benra-framing.netlify.app/services/garage-shed-framing.html): Whether it's a two-car garage, a home workshop or a backyard shed, we frame outbuildings that are properly anchored, correctly sized, and built to last through Lower Mainland winters.
+- [Rough Carpentry & Blocking](https://benra-framing.netlify.app/services/rough-carpentry-blocking.html): The blocking and backing you never see is what keeps a mounted TV, a grab bar or a heavy cabinet secure for years.
+- [Commercial Tenant Improvement Framing](https://benra-framing.netlify.app/services/commercial-tenant-improvement-framing.html): Retail, office and restaurant build-outs run on tight timelines.
+- [Multi-Family & Townhome Framing](https://benra-framing.netlify.app/services/multi-family-framing.html): Townhome and low-rise multi-family projects need a crew that can frame the same unit accurately, over and over, on a schedule set months in advance.
+- [Post & Beam / Timber Framing](https://benra-framing.netlify.app/services/post-beam-timber-framing.html): Exposed post-and-beam and heavy timber structures are as much craft as engineering.
+- [Engineered Lumber Installation](https://benra-framing.netlify.app/services/engineered-lumber-installation.html): Engineered lumber carries real, calculated loads — which means it has to be installed, hung and (when necessary) modified exactly to the manufacturer's and engineer's specifications.
+- [Insurance & Storm Damage Framing Repair](https://benra-framing.netlify.app/services/insurance-storm-damage-framing.html): A fallen tree, wind-damaged roof or burst-pipe flooding needs framing repair done right and documented clearly — so your insurance claim and your rebuild both go smoothly.
+
+## Service Areas
+- [Carpenter in Surrey](https://benra-framing.netlify.app/locations/carpenter-surrey.html)
+- [Carpenter in Vancouver](https://benra-framing.netlify.app/locations/carpenter-vancouver.html)
+- [Carpenter in Burnaby](https://benra-framing.netlify.app/locations/carpenter-burnaby.html)
+- [Carpenter in Langley](https://benra-framing.netlify.app/locations/carpenter-langley.html)
+- [Carpenter in Coquitlam](https://benra-framing.netlify.app/locations/carpenter-coquitlam.html)
+- [Carpenter in Port Coquitlam](https://benra-framing.netlify.app/locations/carpenter-port-coquitlam.html)
+- [Carpenter in Port Moody](https://benra-framing.netlify.app/locations/carpenter-port-moody.html)
+- [Carpenter in New Westminster](https://benra-framing.netlify.app/locations/carpenter-new-westminster.html)
+- [Carpenter in White Rock](https://benra-framing.netlify.app/locations/carpenter-white-rock.html)
+- [Carpenter in Delta](https://benra-framing.netlify.app/locations/carpenter-delta.html)
+- [Carpenter in Richmond](https://benra-framing.netlify.app/locations/carpenter-richmond.html)
+- [Carpenter in North Vancouver](https://benra-framing.netlify.app/locations/carpenter-north-vancouver.html)
+- [Carpenter in Maple Ridge](https://benra-framing.netlify.app/locations/carpenter-maple-ridge.html)
+- [Carpenter in Pitt Meadows](https://benra-framing.netlify.app/locations/carpenter-pitt-meadows.html)
+- [Carpenter in Abbotsford](https://benra-framing.netlify.app/locations/carpenter-abbotsford.html)
+- [Carpenter in Tsawwassen](https://benra-framing.netlify.app/locations/carpenter-tsawwassen.html)
+
+## Guides
+- [How Much Does Framing Cost in BC? (2026 Guide)](https://benra-framing.netlify.app/blog/framing-cost-guide-bc.html): A plain-English breakdown of what framing costs in the Lower Mainland, the factors that move the price, and how quotes are typically structured.
+- [Deck Building Cost & Permits in BC (2026)](https://benra-framing.netlify.app/blog/deck-building-cost-permits-bc.html): What deck framing really costs in the Lower Mainland, when permits are required, and the structural details that separate a deck that lasts from one that doesn't.
+- [7 Signs Your Home Needs Structural Framing Repair](https://benra-framing.netlify.app/blog/signs-you-need-structural-repair.html): Some settling is normal in an older home. These seven signs mean it's worth getting the structure actually assessed — here's how to tell the difference.
+- [Rot & Water Damage: What Lower Mainland Homeowners Need to Know](https://benra-framing.netlify.app/blog/rot-and-water-damage-guide.html): If you own a home in the Lower Mainland's wet coastal climate, here's an honest look at how rot starts, where to check for it, and what your repair options actually are.
+- [How Much Does a Carpenter Cost in the Lower Mainland? (2026)](https://benra-framing.netlify.app/blog/carpenter-cost-lower-mainland.html): A transparent look at how carpentry work is priced in the Lower Mainland, the difference between hourly and project-based pricing, and how to avoid surprise bills.
+- [Secondary Suite Framing Requirements in BC: What Actually Makes It Legal](https://benra-framing.netlify.app/blog/secondary-suite-framing-requirements-bc.html): A practical look at the framing-related requirements that separate a legal secondary suite from a nicely finished basement, and where projects most often get tripped up.
+- [Removing a Load-Bearing Wall: What Homeowners Need to Know](https://benra-framing.netlify.app/blog/load-bearing-wall-removal-guide.html): Open-concept renovations almost always start with this question. Here's how load-bearing wall removal actually works, safely and to code.
+- [How to Choose a Framing & Carpentry Contractor in BC](https://benra-framing.netlify.app/blog/choosing-a-framing-contractor.html): A structural project is not the place to cut corners on who you hire. Here's what to actually check before signing a framing contract.
+
+## Contact
+- Phone: Number coming soon
+- Email: info@benra-framing.netlify.app
+- Website: https://benra-framing.netlify.app
+- Hours: Mon–Sat 7:00 AM – 6:00 PM

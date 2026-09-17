@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* ============================================
+   Benra Framing and Renovations Limited — Professional Theme
+   (shared trade-site framework — same theme file
+   works unchanged for every trade; only seo-data.cjs
+   and copy change between sites)
+   Dark navy + blue accents + red call-to-action
+   Clean, trustworthy, modern (2026)
+============================================ */
+
+/* Brand Colors via CSS variables for easy maintenance */
+:root {
+  /* Bright Professional Redesign (inspired by sturdybeesolutions.com style) */
+  --px-white: #FFFFFF;
+  --px-offwhite: #F8FAFC;
+  --px-light-gray: #F1F5F9;
+  --px-border: #E2E8F0;
+  --px-text: #1E2937;
+  --px-text-light: #475569;
+  --px-text-muted: #64748B;
+
+  /* Accents */
+  --px-navy: #0F172A;           /* Keep for strong headlines */
+  --px-navy-dark: #0B1120;      /* Footer / deep background */
+  --px-blue: #1E40AF;           /* Professional primary accent */
+  --px-blue-light: #3B82F6;
+  --px-emergency: #DC2626;      /* Legacy accent */
+  --px-emergency-light: #EF4444;
+  --px-success: #059669;
+  --px-whatsapp: #25D366;       /* WhatsApp green */
+  --px-whatsapp-dark: #128C7E;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Legacy aliases for current HTML (map to bright equivalents) */
+  --px-light: #F8FAFC;
+  --px-slate: #1E2937;
+  --px-gray: #64748B;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Smooth scrolling for in-page navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Professional focus styles */
+:focus-visible {
+  outline: 2px solid var(--px-blue-light);
+  outline-offset: 2px;
+}
+
+/* Utility: Section spacing consistent with plan */
+.section {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+/* Card styles - clean, trustworthy */
+.card {
+  @apply bg-white rounded-2xl shadow-sm ring-1 ring-slate-200/60 transition-all duration-200;
+}
+
+.card:hover {
+  @apply shadow-md ring-slate-300/60 -translate-y-0.5;
+}
+
+/* Primary phone call-to-action (red, high urgency) */
+.phone-cta {
+  @apply bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white font-semibold transition-all active:scale-[0.985] px-4 py-2.5 text-sm rounded-2xl shadow-sm md:px-6 md:py-3 md:text-base md:rounded-2xl md:shadow-md;
+}
+
+/* Primary blue buttons (new bright theme) */
+.btn-primary {
+  @apply bg-[var(--px-blue)] hover:bg-[#1e3a8a] text-white font-semibold transition-all active:scale-[0.985];
+}
+
+/* WhatsApp green CTA (new) */
+.whatsapp-cta {
+  @apply bg-[var(--px-whatsapp)] hover:bg-[var(--px-whatsapp-dark)] text-white font-semibold transition-all;
+}
+
+/* Trust badge / pill (updated for bright theme) */
+.badge {
+  @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium bg-[var(--px-navy)] text-white ring-1 ring-[var(--px-navy)] shadow-sm;
+}
+
+/* Light professional card (new default for bright redesign) */
+.card-light {
+  @apply bg-white border border-[var(--px-border)] rounded-2xl shadow-sm transition-all;
+}
+
+.card-light:hover {
+  @apply shadow-md border-slate-300 -translate-y-0.5;
+}
+
+/* Form inputs - clean professional */
+input, select, textarea {
+  @apply w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-[var(--px-slate)] placeholder:text-[var(--px-gray)] transition;
+}
+
+input:focus, select:focus, textarea:focus {
+  @apply border-[var(--px-blue)] ring-1 ring-[var(--px-blue)]/20 outline-none;
+}
+
+/* FAQ accordion nice details */
+details summary {
+  @apply cursor-pointer list-none flex items-center justify-between py-4 font-medium text-[var(--px-navy)];
+}
+
+details summary::after {
+  content: "+";
+  @apply text-2xl text-[var(--px-blue)] transition-transform;
+}
+
+details[open] summary::after {
+  content: "–";
+  @apply rotate-0;
+}
+
+/* Mobile nav */
+#mobile-menu {
+  @apply hidden;
+}
+
+#mobile-menu.open {
+  @apply block;
+}
+
+/* Sticky emergency bar for mobile */
+#sticky-cta {
+  @apply fixed bottom-0 left-0 right-0 z-50 md:hidden;
+}
+
+/* Map container */
+.map-container iframe {
+  @apply w-full h-[320px] rounded-2xl border border-slate-200;
+}
+
+/* Professional typography tweaks */
+h1, h2, h3 {
+  @apply tracking-[-0.02em];
+}
+
+/* High quality image treatment */
+img {
+  @apply rounded-xl object-cover;
+}
+
+/* Subtle divider */
+.divider {
+  @apply border-t border-slate-200;
+}
+
+/* Footer renders on dark navy — lighten the variable-driven text/links
+   for proper contrast without editing every page's markup. */
+footer {
+  --px-blue: #BFDBFE;        /* light blue for body text & links on dark */
+  --px-blue-light: #93C5FD;
+}
+footer a:hover {
+  color: #ffffff;
+}

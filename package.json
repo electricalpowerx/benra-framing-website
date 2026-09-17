@@ -1,0 +1,24 @@
+{
+  "name": "benra-framing-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:check": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "generate": "node scripts/generate-seo-pages.cjs",
+    "audit": "node scripts/seo-audit.cjs",
+    "qa": "node scripts/qa-check.cjs"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "playwright": "^1.48.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
