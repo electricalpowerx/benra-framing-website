@@ -40,7 +40,7 @@ const ROOT = path.resolve(__dirname, "..");
    photo keyed off a "seed" string (usually a slug or slug combo), via
    Lorem Picsum. Swap this function for real photo paths once real
    jobsite/team photos exist â€” everything else stays the same. */
-const img = (seed, w = 1200, h = 800) => `https://picsum.photos/seed/${encodeURIComponent(seed)}/${w}/${h}`;
+const img = (seed, w = 1200, h = 800) => `/images/trade-framing.png`; // real framing trade photo (no picsum)
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const cap = (s) => String(s).charAt(0).toUpperCase() + String(s).slice(1);
