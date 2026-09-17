@@ -36,7 +36,7 @@ const SITE = {
 
   // No real reviews yet â€” floating review button & schema aggregateRating
   // stay hidden until reviewCount > 0. Update once Google reviews exist.
-  rating: "4.9",
+  rating: "",
   reviewCount: "0",
   reviewsUrl: "",
   whatsapp: "",
@@ -45,7 +45,7 @@ const SITE = {
 
   founded: "2019",
   yearsExperience: "6+",
-  jobsCompleted: "400+",
+  jobsCompleted: "",
   // Optional business licence number to display for E-E-A-T (leave "" to hide).
   licenseNumber: "",
 
@@ -61,7 +61,7 @@ const SITE = {
   urgencyStat: "24â€“48 hr",               // replaces "30â€“60 min emergency response"
   urgencyStatLabel: "Quote Turnaround",
   ctaHeadline: "Need a framing or carpentry quote?",
-  ctaSub: "Call now or request a free on-site estimate. Upfront pricing, no surprises â€” guaranteed.",
+  ctaSub: "Request a free written quote through the form. Clear scope before we start — number coming soon.",
   footerBlurb: "Licensed, insured carpentry & framing contractor serving Surrey & the Lower Mainland.",
   businessDescription: "Licensed, insured carpentry & framing contractor serving Surrey, BC and the Lower Mainland â€” new home framing, renovations, decks, basement suites, and commercial tenant-improvement framing.",
   copyrightLabel: "Licensed Carpentry & Framing Contractor in British Columbia",

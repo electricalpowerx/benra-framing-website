@@ -110,7 +110,7 @@ function nav() {
           </div>
 
           <a href="/projects.html" class="hover:text-[var(--px-blue)] transition">Projects</a>
-          <a href="/pricing.html" class="hover:text-[var(--px-blue)] transition">Pricing</a>
+          <a href="/pricing.html" class="hover:text-[var(--px-blue)] transition">Quotes</a>
           <a href="/blog.html" class="hover:text-[var(--px-blue)] transition">Blog</a>
           <a href="/contact.html" class="hover:text-[var(--px-blue)] transition">Contact</a>
         </div>
@@ -133,7 +133,7 @@ function nav() {
         <a href="/services.html" class="py-3 px-3 rounded-xl hover:bg-slate-50 font-semibold">All Services â†’</a>
         <a href="/service-areas.html" class="py-3 px-3 rounded-xl hover:bg-slate-50 font-semibold">All Service Areas â†’</a>
         <a href="/projects.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Projects</a>
-        <a href="/pricing.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Pricing</a>
+        <a href="/pricing.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Quotes</a>
         <a href="/blog.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Blog</a>
         <a href="/contact.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Contact</a>
         <div class="pt-4 mt-3 border-t border-[var(--px-border)] flex flex-col gap-3">
@@ -210,11 +210,14 @@ function footer() {
 }
 
 function floatingButtons() {
-  return `
-  <a href="${SITE.reviewsUrl}" target="_blank" rel="noopener noreferrer" class="fixed bottom-14 right-5 z-[70] flex items-center gap-2 px-3 py-2 rounded-full bg-white shadow-xl border border-[var(--px-border)] hover:shadow-2xl transition-all active:scale-[0.985] text-sm font-semibold text-[var(--px-navy)]">
+  const reviews = SITE.reviewsUrl
+    ? `<a href="${SITE.reviewsUrl}" target="_blank" rel="noopener noreferrer" class="fixed bottom-14 right-5 z-[70] flex items-center gap-2 px-3 py-2 rounded-full bg-white shadow-xl border border-[var(--px-border)] hover:shadow-2xl transition-all active:scale-[0.985] text-sm font-semibold text-[var(--px-navy)]">
     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 flex-shrink-0" viewBox="0 0 48 48"><path fill="#4285F4" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#34A853" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#EA4335" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
-    ${Number(SITE.reviewCount) > 0 ? `<span>${SITE.rating}</span><span class="text-amber-400">â˜…</span>` : `<span>Reviews</span>`}
-  </a>
+    ${Number(SITE.reviewCount) > 0 ? `<span>${SITE.rating}</span><span class="text-amber-400">★</span>` : `<span>Reviews</span>`}
+  </a>`
+    : "";
+  return `
+  ${reviews}
   <a href="/contact.html" class="fixed bottom-5 right-5 z-[70] inline-flex px-4 py-2 rounded-full bg-[var(--px-navy)] text-white shadow-xl hover:bg-[var(--px-blue)] transition-all active:scale-[0.985] text-sm font-semibold">Request a Free Quote</a>`;
 }
 
@@ -252,7 +255,7 @@ function localBusinessSchema(extra = {}) {
     url: SITE.domain,
     telephone: SITE.phoneIntl,
     email: SITE.email,
-    priceRange: "$$",
+    priceRange: "Ask for a free quote",
     foundingDate: SITE.founded,
     numberOfEmployees: { "@type": "QuantitativeValue", ...SITE.numberOfEmployees },
     address: Object.assign(
@@ -1170,7 +1173,7 @@ function aboutPage() {
   ];
   const companyFaqs = [
     [`Is ${SITE.name} licensed and insured?`, `Yes. ${SITE.name} is a licensed ${SITE.tradeAdjLower} contractor in British Columbia. Our crews carry comprehensive liability insurance and we are WorkSafeBC (WCB) registered.${SITE.licenseNumber ? ` Our business licence number is ${SITE.licenseNumber}.` : ""}`],
-    ["How long has the company been in business?", `We have served ${SITE.address.city} and the Lower Mainland for ${SITE.yearsExperience} years, growing into a trusted crew that has completed ${SITE.jobsCompleted} projects.`],
+    ["How long has the company been in business?", `We are a Surrey-based, owner-operated framing and renovation company serving the Lower Mainland${SITE.yearsExperience ? ` — with ${SITE.yearsExperience} years of local carpentry experience` : ""}.`],
     ["What areas do you serve?", `We are based in ${SITE.address.city} and serve the entire Lower Mainland and Fraser Valley, including Vancouver, Burnaby, Langley, Coquitlam, the Tri-Cities, New Westminster, White Rock, Delta, Richmond, the North Shore, Maple Ridge, Pitt Meadows and Abbotsford.`],
     ["Do you offer free estimates?", `Yes. Every quote is free, written and given before any work begins â€” typically within ${SITE.urgencyStat} of an on-site visit.`],
     ["Is your work done to code and permitted?", `Always. Every job follows the current ${SITE.codeAuthority}, and permits are pulled and inspected where required. We never cut corners on safety or paperwork.`],
@@ -1210,7 +1213,7 @@ function aboutPage() {
 
   return `${head(
     `About ${SITE.name} | Licensed ${SITE.personNounPlural} in ${SITE.address.city}, BC`,
-    `Meet ${SITE.name} â€” a licensed, insured, WCB-registered ${SITE.tradeAdjLower} contractor with ${SITE.yearsExperience} years and ${SITE.jobsCompleted} projects across ${SITE.address.city} & the Lower Mainland.`,
+    `Meet ${SITE.name} — a licensed, insured, WCB-registered ${SITE.tradeAdjLower} contractor serving ${SITE.address.city} and the Lower Mainland. Free written quotes.`,
     canonical,
     schemas,
     img("about-team")
@@ -1237,7 +1240,7 @@ ${breadcrumbBar(crumbs)}
         <h2 class="text-3xl md:text-4xl font-bold tracking-[-1px] text-[var(--px-navy)] mb-6">Our Story</h2>
         <div class="space-y-4 text-[var(--px-text-light)] text-lg">
           <p>Founded in ${esc(SITE.address.city)}, BC, ${esc(SITE.name)} started with a single goal: deliver honest, high-quality ${esc(SITE.tradeAdjLower)} work with zero surprises.</p>
-          <p>Over the past ${esc(SITE.yearsExperience)} years we've grown into a trusted crew of ${esc(SITE.personNounPlural.toLowerCase())} serving homeowners, renovators and builders across Metro Vancouver and the Fraser Valley â€” completing more than ${esc(SITE.jobsCompleted.replace("+", ""))} projects. We specialize in fast, honest quotes while delivering long-term work like ${esc(SITE.serviceSummary)}.</p>
+          <p>We're a trusted crew of ${esc(SITE.personNounPlural.toLowerCase())} serving homeowners, renovators and builders across Metro Vancouver and the Fraser Valley. We specialize in fast, honest written quotes while delivering long-term work like ${esc(SITE.serviceSummary)}.</p>
           <p>We're proud to be a local, owner-operated ${esc(SITE.address.city)} business. We know Lower Mainland homes, building code and permitting inside out â€” and we treat every job site like it's our own.</p>
           ${
             SITE.sisterSites && SITE.sisterSites.length
@@ -1254,7 +1257,7 @@ ${breadcrumbBar(crumbs)}
       <div class="lg:col-span-5 bg-[var(--px-offwhite)] rounded-2xl p-8">
         <div class="grid grid-cols-2 gap-6 text-center">
           <div><div class="text-4xl font-bold text-[var(--px-navy)]">${esc(SITE.yearsExperience)}</div><div class="text-sm text-[var(--px-text-muted)] mt-1">Years in Business</div></div>
-          <div><div class="text-4xl font-bold text-[var(--px-navy)]">${esc(SITE.jobsCompleted)}</div><div class="text-sm text-[var(--px-text-muted)] mt-1">Projects Completed</div></div>
+          <div><div class="text-4xl font-bold text-[var(--px-navy)]">Surrey</div><div class="text-sm text-[var(--px-text-muted)] mt-1">Based &amp; Owner-Operated</div></div>
           ${Number(SITE.reviewCount) > 0
             ? `<div><div class="text-4xl font-bold text-[var(--px-navy)]">${esc(SITE.rating)}â˜…</div><div class="text-sm text-[var(--px-text-muted)] mt-1">From ${esc(SITE.reviewCount)}+ Reviews</div></div>`
             : `<div><div class="text-4xl font-bold text-[var(--px-navy)]">100%</div><div class="text-sm text-[var(--px-text-muted)] mt-1">Written Quotes</div></div>`}

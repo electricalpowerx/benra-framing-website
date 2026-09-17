@@ -30,3 +30,6 @@ rebrand_benra.py
 benra_fixup.py
 *.tar
 
+
+# Local Netlify folder
+.netlify

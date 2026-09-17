@@ -145,7 +145,7 @@ const log = (msg, ok = true) => {
   const comboTitle = await page.title();
   log(`Combo page title: "${comboTitle}"`, comboTitle.length > 0);
 
-  await page.goto(`${BASE}/locations/carpenter-surrey.html`, { waitUntil: 'networkidle' });
+  await page.goto(`${BASE}/locations/framing-surrey.html`, { waitUntil: 'networkidle' });
   await page.screenshot({ path: path.join(OUT, '13-location-page.png') });
   const locTitle = await page.title();
   log(`Location page title: "${locTitle}"`, locTitle.length > 0);
