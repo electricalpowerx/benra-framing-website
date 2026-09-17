@@ -106,6 +106,11 @@ const SITE = {
       url: "https://summitcoatpainting.ca",
       tagline: "Surrey & Lower Mainland Painting Contractor",
     },
+    {
+      name: "PowerX Electrical Ltd.",
+      url: "https://powerxelectrical.ca/",
+      tagline: "Surrey & Lower Mainland Electrician",
+    },
   ],
 };
 
