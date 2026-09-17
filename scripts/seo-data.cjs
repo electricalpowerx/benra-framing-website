@@ -677,7 +677,7 @@ const LOCATIONS = [
   {
     slug: "surrey",
     city: "Surrey",
-    metaTitle: "Carpenter in Surrey, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Surrey, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Surrey, BC. New home framing, renovations, decks, additions & basement suites. Free written estimates. Request Free Quote.",
     heroSub: "Benra is based right here in Surrey. Whether you're in Newton, Guildford, Fleetwood or South Surrey, a licensed carpenter can quote your project fast.",
     intro: [
@@ -695,7 +695,7 @@ const LOCATIONS = [
   {
     slug: "vancouver",
     city: "Vancouver",
-    metaTitle: "Carpenter in Vancouver, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Vancouver, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter serving Vancouver, BC. Renovation framing, additions, structural repair & laneway house framing. Free estimates. Request Free Quote.",
     heroSub: "From Kitsilano character homes to East Van infill and laneway houses, Benra delivers licensed carpentry across Vancouver â€” renovations, additions, decks and structural repair.",
     intro: [
@@ -713,7 +713,7 @@ const LOCATIONS = [
   {
     slug: "burnaby",
     city: "Burnaby",
-    metaTitle: "Carpenter in Burnaby, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Burnaby, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Burnaby, BC. New home framing, renovations, decks, basement suites & multi-family framing. Free estimates. Request Free Quote.",
     heroSub: "Brentwood, Metrotown, the Heights or the SFU area â€” Benra delivers fast, licensed carpentry across Burnaby for homes, additions and multi-family projects.",
     intro: [
@@ -731,7 +731,7 @@ const LOCATIONS = [
   {
     slug: "langley",
     city: "Langley",
-    metaTitle: "Carpenter in Langley, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Langley, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Langley, BC. New home framing, acreage shops & barns, decks, fencing & additions. Free written estimates. Request Free Quote.",
     heroSub: "From Willoughby's new builds to Fort Langley character homes and Aldergrove acreages, Benra covers the City and Township of Langley with licensed carpentry.",
     intro: [
@@ -749,7 +749,7 @@ const LOCATIONS = [
   {
     slug: "coquitlam",
     city: "Coquitlam",
-    metaTitle: "Carpenter in Coquitlam, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Coquitlam, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Coquitlam, BC. New home framing, renovations, decks & basement suites. Serving all Coquitlam neighbourhoods. Request Free Quote.",
     heroSub: "Burke Mountain, Town Centre or Maillardville â€” Benra brings licensed, code-compliant carpentry to homes and builders across Coquitlam.",
     intro: [
@@ -767,7 +767,7 @@ const LOCATIONS = [
   {
     slug: "port-coquitlam",
     city: "Port Coquitlam",
-    metaTitle: "Carpenter in Port Coquitlam, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Port Coquitlam, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Port Coquitlam (PoCo), BC. Renovations, decks, additions & structural repair. Fast local estimates. Request Free Quote.",
     heroSub: "Benra delivers licensed carpentry throughout Port Coquitlam â€” from downtown PoCo to Citadel Heights and the Mary Hill area.",
     intro: [
@@ -785,7 +785,7 @@ const LOCATIONS = [
   {
     slug: "port-moody",
     city: "Port Moody",
-    metaTitle: "Carpenter in Port Moody, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Port Moody, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Port Moody, BC. Renovation & addition framing, decks & basement suites. Free written estimates. Request Free Quote.",
     heroSub: "Newport Village, Suter Brook or Heritage Mountain â€” Benra brings licensed carpentry to homes and condos across Port Moody.",
     intro: [
@@ -803,7 +803,7 @@ const LOCATIONS = [
   {
     slug: "new-westminster",
     city: "New Westminster",
-    metaTitle: "Carpenter in New Westminster, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in New Westminster, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in New Westminster, BC. Heritage home repair, renovation framing, decks & basement suites. Request Free Quote.",
     heroSub: "Queens Park, Sapperton or the Quay â€” Benra brings licensed, careful carpentry to New Westminster's mix of heritage homes and modern condos.",
     intro: [
@@ -821,7 +821,7 @@ const LOCATIONS = [
   {
     slug: "white-rock",
     city: "White Rock",
-    metaTitle: "Carpenter in White Rock, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in White Rock, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in White Rock, BC. Deck & carport framing, rot repair, renovations & additions. Weather-aware coastal building. Request Free Quote.",
     heroSub: "Waterfront and hillside homes near the beach need carpentry built for salt air and coastal weather. Benra frames and repairs White Rock homes to hold up to it.",
     intro: [
@@ -839,7 +839,7 @@ const LOCATIONS = [
   {
     slug: "delta",
     city: "Delta",
-    metaTitle: "Carpenter in Delta, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Delta, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Delta, BC. New home framing, farm & acreage outbuildings, decks & additions. Free written estimates. Request Free Quote.",
     heroSub: "North Delta suburbs, riverside Ladner or Boundary Bay â€” Benra covers Delta with licensed carpentry for homes, farms and additions.",
     intro: [
@@ -857,7 +857,7 @@ const LOCATIONS = [
   {
     slug: "richmond",
     city: "Richmond",
-    metaTitle: "Carpenter in Richmond, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Richmond, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Richmond, BC. Renovation framing, additions, decks & multi-family tenant improvements. Request Free Quote.",
     heroSub: "Steveston, City Centre or Broadmoor â€” Benra delivers licensed carpentry across Richmond for homes, condos and commercial projects.",
     intro: [
@@ -875,7 +875,7 @@ const LOCATIONS = [
   {
     slug: "north-vancouver",
     city: "North Vancouver",
-    metaTitle: "Carpenter in North Vancouver, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in North Vancouver, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in North Vancouver, BC. Hillside deck & post-and-beam framing, renovations, structural repair. Request Free Quote.",
     heroSub: "Lynn Valley, Deep Cove or Edgemont â€” Benra builds and repairs carpentry on North Vancouver's hillside lots and established homes.",
     intro: [
@@ -893,7 +893,7 @@ const LOCATIONS = [
   {
     slug: "maple-ridge",
     city: "Maple Ridge",
-    metaTitle: "Carpenter in Maple Ridge, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Maple Ridge, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Maple Ridge, BC. New home framing, acreage shops & barns, decks & additions. Free written estimates. Request Free Quote.",
     heroSub: "Silver Valley's new homes, historic Hammond or rural Websters Corners â€” Benra covers Maple Ridge with licensed carpentry for every kind of property.",
     intro: [
@@ -911,7 +911,7 @@ const LOCATIONS = [
   {
     slug: "pitt-meadows",
     city: "Pitt Meadows",
-    metaTitle: "Carpenter in Pitt Meadows, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Pitt Meadows, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Pitt Meadows, BC. New home framing, farm & polder outbuildings, decks & additions. Request Free Quote.",
     heroSub: "Bonson's newer homes or the farmland out on Pitt Polder â€” Benra covers Pitt Meadows with licensed carpentry for town-centre homes and rural properties alike.",
     intro: [
@@ -929,7 +929,7 @@ const LOCATIONS = [
   {
     slug: "abbotsford",
     city: "Abbotsford",
-    metaTitle: "Carpenter in Abbotsford, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Abbotsford, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Abbotsford, BC. Farm & acreage outbuildings, new home framing, renovations & commercial framing. Request Free Quote.",
     heroSub: "Clearbrook, City Centre or the farms out toward Matsqui and Mount Lehman â€” Benra covers Abbotsford with licensed carpentry for every property type.",
     intro: [
@@ -947,7 +947,7 @@ const LOCATIONS = [
   {
     slug: "tsawwassen",
     city: "Tsawwassen",
-    metaTitle: "Carpenter in Tsawwassen, BC | Framing & Carpentry Contractor | Benra",
+    metaTitle: "Framing Contractor in Tsawwassen, BC | Framing & Carpentry Contractor | Benra",
     metaDesc: "Licensed carpenter in Tsawwassen, BC. Deck framing, rot repair, renovations & additions. Weather-aware coastal building. Request Free Quote.",
     heroSub: "Tsawwassen Beach, Tsawwassen Shores or English Bluff â€” Benra builds and repairs carpentry on Tsawwassen's coastal properties.",
     intro: [
