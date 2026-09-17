@@ -116,7 +116,7 @@ function nav() {
         </div>
 
         <div class="hidden lg:flex items-center gap-3">
-          <a href="/contact.html" class="phone-cta flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-sm font-semibold transition active:scale-[0.985]">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-sm font-semibold transition active:scale-[0.985]">${phoneSvg}<span>${SITE.phone}</span></a>
           <a href="/contact.html" class="px-5 py-2.5 rounded-2xl bg-[var(--px-navy)] text-white text-sm font-semibold hover:bg-[var(--px-blue)] transition active:scale-[0.985]">Get Free Quote</a>
         </div>
 
@@ -137,7 +137,7 @@ function nav() {
         <a href="/blog.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Blog</a>
         <a href="/contact.html" class="mobile-link py-3 px-3 rounded-xl hover:bg-slate-50">Contact</a>
         <div class="pt-4 mt-3 border-t border-[var(--px-border)] flex flex-col gap-3">
-          <a href="/contact.html" class="phone-cta flex justify-center items-center gap-2 py-3.5 rounded-2xl bg-[var(--px-navy)] text-white font-semibold text-base">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta flex justify-center items-center gap-2 py-3.5 rounded-2xl bg-[var(--px-navy)] text-white font-semibold text-base">${phoneSvg} Call ${SITE.phone}</a>
           <a href="/contact.html" class="flex justify-center items-center py-3.5 rounded-2xl bg-[var(--px-navy)] text-white font-semibold text-base">Request Free Quote</a>
         </div>
       </div>
@@ -162,7 +162,7 @@ function footer() {
         <div class="col-span-2">
           <a href="/index.html" class="inline-flex bg-white rounded-xl p-2.5 mb-3 w-max"><img src="/images/logo.svg" alt="${esc(SITE.name)}" class="h-9 w-auto" /></a>
           <p class="text-xs max-w-[240px] mb-4">${esc(SITE.footerBlurb)}</p>
-          <a href="/contact.html" class="phone-cta inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-sm font-semibold transition">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-sm font-semibold transition">${phoneSvg}${SITE.phone}</a>
         </div>
 
         <div>
@@ -218,7 +218,7 @@ function floatingButtons() {
     : "";
   return `
   ${reviews}
-  <a href="/contact.html" class="fixed bottom-5 right-5 z-[70] inline-flex px-4 py-2 rounded-full bg-[var(--px-navy)] text-white shadow-xl hover:bg-[var(--px-blue)] transition-all active:scale-[0.985] text-sm font-semibold">Request a Free Quote</a>`;
+  <a href="tel:${SITE.phone}" class="fixed bottom-5 right-5 z-[70] inline-flex px-4 py-2 rounded-full bg-[var(--px-navy)] text-white shadow-xl hover:bg-[var(--px-blue)] transition-all active:scale-[0.985] text-sm font-semibold">${SITE.phone}</a>`;
 }
 
 const mobileScript = `
@@ -365,7 +365,7 @@ function ctaBand() {
       <h2 class="text-3xl md:text-4xl font-bold tracking-[-1.5px] mb-3">${esc(SITE.ctaHeadline)}</h2>
       <p class="text-white/70 text-lg mb-7 max-w-xl mx-auto">${esc(SITE.ctaSub)}</p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-base font-semibold shadow-md transition active:scale-[0.985]">Request Free Quote</a>
+        <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-7 py-4 rounded-2xl bg-[var(--px-navy)] hover:bg-[var(--px-blue)] text-white text-base font-semibold shadow-md transition active:scale-[0.985]">${phoneSvg} Call ${SITE.phone}</a>
         <a href="/contact.html" class="inline-flex items-center justify-center px-7 py-4 rounded-2xl text-base font-semibold border-2 border-white/80 text-white hover:bg-white hover:text-[var(--px-navy)] transition active:scale-[0.985]">Request a Free Quote</a>
       </div>
     </div>
@@ -483,7 +483,7 @@ ${breadcrumbBar(crumbs)}
         <h1 class="text-4xl md:text-5xl font-bold tracking-[-2px] leading-[1.02] mb-5 text-[var(--px-navy)]">${esc(s.h1)}</h1>
         <p class="text-lg md:text-xl text-[var(--px-text-light)] mb-8">${esc(s.heroSub)}</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">${phoneSvg} Call ${SITE.phone}</a>
           <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 rounded-2xl text-base font-semibold border-2 border-[var(--px-navy)] text-[var(--px-navy)] hover:bg-[var(--px-navy)] hover:text-white transition active:scale-[0.985]">Request Free Quote</a>
         </div>
       </div>
@@ -588,7 +588,7 @@ ${breadcrumbBar(crumbs)}
         <h1 class="text-4xl md:text-6xl font-bold tracking-[-2.5px] leading-[0.98] mb-5 text-[var(--px-navy)]">${esc(SITE.personNoun)} in ${esc(l.city)}, BC</h1>
         <p class="text-lg md:text-2xl text-[var(--px-text-light)] mb-8">${esc(l.heroSub)}</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">${phoneSvg} Call ${SITE.phone}</a>
           <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 rounded-2xl text-base font-semibold border-2 border-[var(--px-navy)] text-[var(--px-navy)] hover:bg-[var(--px-navy)] hover:text-white transition active:scale-[0.985]">Request Free Quote</a>
         </div>
         <div class="mt-9 flex flex-wrap gap-x-8 gap-y-3 text-sm text-[var(--px-text-muted)]">
@@ -696,7 +696,7 @@ ${breadcrumbBar(crumbs)}
       <h1 class="text-4xl md:text-6xl font-bold tracking-[-2.5px] text-[var(--px-navy)] mb-5">Complete ${esc(SITE.tradeAdj)} Services</h1>
       <p class="max-w-2xl mx-auto text-lg md:text-xl text-[var(--px-text-light)]">From a single-room job to full commercial tenant-improvement builds, ${esc(SITE.name)} is the one licensed contractor that handles it all across ${esc(SITE.address.city)} &amp; the Lower Mainland.</p>
       <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md transition">Request Free Quote</a>
+        <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md transition">${phoneSvg} Call ${SITE.phone}</a>
         <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 rounded-2xl text-base font-semibold border-2 border-[var(--px-navy)] text-[var(--px-navy)] hover:bg-[var(--px-navy)] hover:text-white transition">Request Free Quote</a>
       </div>
     </div>
@@ -861,7 +861,7 @@ ${breadcrumbBar(crumbs)}
         <h1 class="text-3xl md:text-5xl font-bold tracking-[-2px] leading-[1.04] mb-5 text-[var(--px-navy)]">${esc(s.nav)} in ${esc(l.city)}, BC</h1>
         <p class="text-lg md:text-xl text-[var(--px-text-light)] mb-8">${esc(s.heroSub)}</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">${phoneSvg} Call ${SITE.phone}</a>
           <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 rounded-2xl text-base font-semibold border-2 border-[var(--px-navy)] text-[var(--px-navy)] hover:bg-[var(--px-navy)] hover:text-white transition active:scale-[0.985]">Free Quote in ${esc(l.city)}</a>
         </div>
       </div>
@@ -970,7 +970,7 @@ ${breadcrumbBar(crumbs)}
         <h1 class="text-4xl md:text-6xl font-bold tracking-[-2.5px] leading-[0.98] mb-5 text-[var(--px-navy)]">${esc(SITE.personNoun)} in ${esc(n.name)}</h1>
         <p class="text-lg md:text-2xl text-[var(--px-text-light)] mb-8">${esc(n.blurb)} ${esc(SITE.name)} brings licensed, code-compliant ${esc(SITE.tradeAdjLower)} work to ${esc(n.name)} and all of ${esc(parent.city)}.</p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/contact.html" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">Request Free Quote</a>
+          <a href="tel:${SITE.phone}" class="phone-cta inline-flex items-center justify-center gap-3 px-6 py-3 rounded-2xl text-base font-semibold shadow-md active:scale-[0.985] transition">${phoneSvg} Call ${SITE.phone}</a>
           <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 rounded-2xl text-base font-semibold border-2 border-[var(--px-navy)] text-[var(--px-navy)] hover:bg-[var(--px-navy)] hover:text-white transition active:scale-[0.985]">Request Free Quote</a>
         </div>
       </div>

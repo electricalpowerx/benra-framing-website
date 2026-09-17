@@ -3,8 +3,8 @@
 Framing & renovations website for Surrey & the Lower Mainland.
 
 - **Legal name:** Benra Framing and Renovations Limited
-- **Address:** 7156 144 St, Unit 18, Surrey, BC
-- **Contact:** form-only (phone & email TBD)
+- **Address:** 16832 60 Avenue, Surrey, BC V3S 1T2
+- **Phone:** 604-720-0207
 - **Live:** https://benra-framing.netlify.app
 
 ## Develop
@@ -17,6 +17,7 @@ npm run dev
 ## Build / deploy
 
 ```bash
+npm run generate   # regenerate SEO silo pages from scripts/seo-data.cjs
 npm run build
 ```
 

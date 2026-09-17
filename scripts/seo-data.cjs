@@ -1,11 +1,9 @@
 ﻿/* ============================================================
    Benra Framing and Renovations Limited â€” SEO silo content data
    ------------------------------------------------------------
-   âš ï¸  PLACEHOLDER / DUMMY BUSINESS DATA â€” DO NOT PUBLISH AS-IS.
-   Every field in SITE below (phone, email, address, domain,
-   rating/reviewCount, licenseNumber) is a placeholder. Fill in
-   the real business details before this site goes live â€” see
-   README.md for the full pre-launch checklist.
+   NAP (name/address/phone) is Marketing GBP green-light.
+   Email / reviews / licenseNumber may still be empty until confirmed.
+   See README.md for remaining pre-launch checklist items.
    ------------------------------------------------------------
    Unique copy per service & per location lives here.
    Edit this file to tweak page content, then run:
@@ -18,18 +16,18 @@ const SITE = {
   brandShort: "Benra",     // short brand token for length-constrained titles
   ogLocale: "en_CA",
   numberOfEmployees: { minValue: 4, maxValue: 8 },
-  phone: "",
-  phoneIntl: "",
-  phoneDigits: "",
+  phone: "604-720-0207",
+  phoneIntl: "+1-604-720-0207",
+  phoneDigits: "6047200207",
   email: "",
   domain: "https://benra-framing.netlify.app",
 
   // Service-area business â€” no public storefront address (see hasPublicAddress).
   address: {
-    street: "7156 144 St, Unit 18",
+    street: "16832 60 Avenue",
     city: "Surrey",
     region: "BC",
-    postal: "V3W 1X9",
+    postal: "V3S 1T2",
     country: "CA",
   },
   hasPublicAddress: true,
@@ -40,7 +38,7 @@ const SITE = {
   reviewCount: "0",
   reviewsUrl: "",
   whatsapp: "",
-  geo: { lat: 49.1913, lng: -122.849 },
+  geo: { lat: 49.1113452, lng: -122.7557807 },
   sameAs: [],
 
   founded: "2019",
@@ -61,7 +59,7 @@ const SITE = {
   urgencyStat: "24â€“48 hr",               // replaces "30â€“60 min emergency response"
   urgencyStatLabel: "Quote Turnaround",
   ctaHeadline: "Need a framing or carpentry quote?",
-  ctaSub: "Request a free written quote through the form. Clear scope before we start — number coming soon.",
+  ctaSub: "Call 604-720-0207 or request a free written quote. Clear scope before we start.",
   footerBlurb: "Licensed, insured carpentry & framing contractor serving Surrey & the Lower Mainland.",
   businessDescription: "Licensed, insured carpentry & framing contractor serving Surrey, BC and the Lower Mainland â€” new home framing, renovations, decks, basement suites, and commercial tenant-improvement framing.",
   copyrightLabel: "Licensed Carpentry & Framing Contractor in British Columbia",
